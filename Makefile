@@ -24,7 +24,7 @@ CC = gcc-7.3.0
 CFLAGS = -g -std=c11 -m64
 CFLAGS += -mtune=znver2 -march=znver2
 WARN_FLAGS = -Wall # -Wconversion
-OPT_FLAGS = -O2 
+OPT_FLAGS = -O3
 INC = -I. 
 BINNAME = ysieve
 OBJ_EXT = .o
