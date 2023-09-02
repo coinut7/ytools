@@ -20,7 +20,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-CC = gcc-7.3.0
+CC = gcc
 CFLAGS = -g -std=c11 -m64
 CFLAGS += -mtune=znver2 -march=znver2
 WARN_FLAGS = -Wall # -Wconversion
